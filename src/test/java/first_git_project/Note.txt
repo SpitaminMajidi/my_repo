@@ -48,3 +48,16 @@ NOTE: PULL BEFORE PUSH
         ✦Check if your codes are in remote repository
         ✦Question 1: Does ahmet branch have the codes we just pushed? YESSSSSSS
         ✦Question 2: Does master have the codes we just pushed?  NOOOOO. WE HAVE TO MERGE ALL CODES TO MASTER.NEXT SLIDE
+
+        *****
+        ********************DAY 2*****************************************************
+        BRANCHING
+        git branch -a -> show me all branch
+        git branch ahmet -> create ahmet branch
+        git checkout ahmet -> switched to ahmet branch
+        created a code : MySixthClass
+        create a new commit and push
+            git add .
+            git commit -m "message"
+            git push --set-upstream origin ahmet
+        Then codes will be in the remote ahmet branch
